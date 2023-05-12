@@ -1,0 +1,376 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(car.png);
+    background-size: cover;
+    background-position: center;
+    padding: 30px 5%;
+    transition: backgound-image 0.3s;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    cursor: pointer;
+    width: 160px;
+}
+nav .btn{
+    text-decoration: none;
+    background: #fff;
+    color: black;
+    margin-top: -80px;
+    padding: 15px 60px;
+    border-radius: 30px;
+}
+.content{
+    margin-top: 5%;
+    
+}
+.content h2{
+    color:#333;
+    font-size: 34px;
+}
+.content h4{
+    background: rgb(11, 83, 253);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+    padding-top: 14px;
+    width: 20%;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+   
+    
+    
+}
+/* .content p{
+    max-width: 380px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+
+} */
+.content h3{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+}
+
+.color-select div{
+background: #fff;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+margin-right: 10px;
+cursor: pointer;
+}
+.color-select{
+    display: flex;
+    margin-top: 30px ;
+}
+.color-select #safed{
+    background: #fff;
+}
+.color-select #green{
+    background: rgb(68, 109, 68);
+}
+.color-select #lightblue{
+    background: rgb(110, 99, 171);
+}
+.image{
+    width: 100%;
+    height: 100vh;
+    background: url(white.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    transition: backgound-image 0.3s;
+}
+.content-2{
+    margin-top: 10%;
+}
+.content-2 h1{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+}
+.content-2 h3{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+}
+.content-2 h2 {
+    background: rgb(11, 83, 253);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+    padding-top: 8px;
+    width: 20%;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.color-selector div{
+    background: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    }
+.color-selector{
+    display: flex;
+    padding: 10px;
+    margin-left: 40px;
+     
+}
+.color-selector #white{
+    background: white;
+}
+.color-selector #yellow{
+    background: yellow;
+}
+.color-selector #RR{
+    background: blue;
+}
+.images{
+    width: 100%;
+    height: 100vh;
+    background: url(bme.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    transition: backgound-image 0.3s;
+}
+.content-3{
+margin-top: 15%;
+margin-left: 20px;
+}
+.content-3 h4{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.content-3 h1{
+    font-size: 100px;
+    color: #333;
+    margin-top: -25px;
+    
+}
+.content-3 h3{
+    background: rgb(11, 83, 253);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    padding-top: 8px;
+    width: 20%;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+}
+.content-3 h2{
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 24px;
+    color:  rgb(255, 242, 0);
+}
+
+
+.color-selectors div{
+    background: rgb(50, 55, 210);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    }
+.color-selectors{
+    display: flex;
+    padding: 10px;
+     
+}
+.color-selectors #BMW{
+    background: white;
+}
+.color-selectors #RRR{
+    background: yellow;
+}
+.color-selectors #BLUE{
+    background: blue;
+}
+.img{
+    width: 100%;
+    height: 100vh;
+    background: url(https://wallpapercrafter.com/desktop/5491-bmw-m4-bmw-car-white-side-view-4k.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    transition: backgound-image 0.3s;
+}
+.content-4{
+margin-top: 10%;
+}
+.content-4 h2{
+    color: red;
+    margin-left: 30px;
+    font-size: 37px;
+}
+.content-4 h1{
+    font-size: 100px;
+    color: #fff;
+    margin-top: -20px;
+    margin-left: 30px;
+    
+}
+.content-4 h4{
+    /* max-width: 380px; */
+    background: rgb(11, 83, 253);
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+    padding-top: 14px;
+    margin-left: 30px;
+    width: 20%;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+
+}
+.content-4 h3{
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+}
+
+
+.colour-selectors div{
+    background: rgb(50, 55, 210);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 30px;
+    cursor: pointer;
+    }
+.colour-selectors{
+    display: flex;
+    /* margin-right: 16%; */
+    padding: 10px;
+     
+}
+.colour-selectors #SUPER{
+    background: white;
+}
+.colour-selectors #BRAND{
+    background: yellow;
+}
+.colour-selectors #PRIZE{
+    background: blue;
+}
+.box{
+    margin-top: 40px;
+    margin-left: 35px;
+    padding-left: 10px;
+    padding-top: 6px;
+    width: 42%;
+    height: 600px;
+    border: 1px solid black;
+}
+.box h3{
+   font-size: 1.6rem;
+   font-weight: 100;
+}
+.box p{
+    padding-top:10px ;
+}
+.box h4{
+    margin-top: 130px;
+    font-weight: 100;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top:15px
+    
+
+}
+.box-1{
+    margin-top: -600px;
+    float: right;
+    margin-right: 40px;
+    padding-left: 10px;
+    padding-top: 6px;
+    width: 42%;
+    height: 600px; ;
+    border: 1px solid black;
+}
+.box-1 h3{
+   font-size: 1.6rem;
+   font-weight: 100;
+}
+.box-1 p{
+    padding-top:10px ;
+}
+.box-1 h4{
+    margin-top: 113px;
+    font-weight: 100;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top:15px
+}
+
+.apoint {
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.apoint p{
+    font-size: 1.4rem;
+    padding-top: 20px;
+    
+}
+.apoint h4{
+    font-size: 1.8rem;
+    font-weight: 100;
+    text-decoration: underline;
+    
+}
+.apoint img{
+    padding-top: 50px;
+}
+.apoint h3{
+    margin-top: 130px;
+    margin-left: 43%;
+    font-weight: 100;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top:13px
+}
+.links{
+    display: flex;
+    
+}
+.footer{
+    background-color:#333;
+}
